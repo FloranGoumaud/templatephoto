@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .indent { text-indent: 40px; } /* Indente la première ligne du texte à 40px de son conteneur */
+        .ligne-grise {
+            height: 2px;           /* Épaisseur de la ligne */
+            background-color: rgb(53, 53, 64); /* Couleur de la ligne en gris */
+        }
+        .ligne-rouge {
+            height: 2px;           /* Épaisseur de la ligne */
+            background-color: rgb(255, 0, 38); /* Couleur de la ligne en rouge */
+        }
+        .ligne-jaune {
+            height: 2px;           /* Épaisseur de la ligne */
+            background-color: rgb(225, 255, 0); /* Couleur de la ligne en jaune */
+        }
+        li { list-style: none; } /* Supprime le style de liste par défaut des éléments de liste */
+        .l1 { list-style:disc; } /* Style de liste avec des puces */
+        .l2 { list-style: decimal; } /* Style de liste avec des chiffres */
+    </style>
+    <title>Document</title> <!-- Titre de la page affiché dans l'onglet du navigateur -->
+    </head>
+    <body>
+        <a id="debut"></a> <!-- Ancre pour navigation interne vers le début de la page -->
+        <a href="#fin">Bas de page</a> <!-- Lien pour se rendre en bas de la page -->
+        <h1>BTS SIO 2025</h1> <!-- Titre de niveau 1 -->
+        <hr class="ligne-grise"> <!-- Ligne horizontale grise -->
+        <br> <!-- Saut de ligne -->
+        <p>Je suis Floran Goumaud</p> <!-- Paragraphe -->
+        <div>J'ai : <strong>19 ans</strong></div> <!-- Bloc contenant du texte. "strong" met le texte en gras -->      
+        <p>Je viens de <em>BAC STI2D option SIN</em></p> <!-- "i" met le texte en italique -->
+        <hr class="ligne-rouge"> <!-- Ligne horizontale rouge -->
+        <h1>Pour cette année <i>2023-2024</i></h1> <!-- Titre de niveau 1 avec texte en italique -->
+        <p>Je suis en 1<sup>er</sup> année</p> <!-- "sup" élève le texte (exposant) -->
+        <p>Durant ce semestre nous allons montée en compétence sur les domaines suivants :</p>
+        <ul> <!-- Liste non ordonnée -->
+            <div>Voici les blocs :</div>
+            <li>BLOC 1</li> <!-- Élément de liste -->
+            <li>BLOC 2</li>
+        </ul>
+        <p>Pour le second semestre <sub>(en janvier)</sub></p> <!-- "sub" abaisse le texte (indice) -->
+        <ul>
+            <div>Voici les blocs</div>
+            <li>BLOC 1</li>
+            <li>BLOC 2</li>
+            <li>BLOC 3</li>
+        </ul>
+        <hr class="ligne-jaune"> <!-- Ligne horizontale jaune -->
+        <p>Pour la 2eme année</p>
+        <ul class="l2"> <!-- Liste ordonnée avec style numérique -->
+            <div class="indent">Je passe mon BTS</div> <!-- Texte avec une indentation -->
+            <li class="l2">L'épreuve E4</li>
+            <li class="l2">L'épreuve E5</li>
+            <li class="l2">L'épreuve E6</li>
+        </ul>
+        <ul>
+            <div class="indent">Mais aussi des épreuves communes</div>
+            <li class="l1">MATHS</li> <!-- Élément de liste avec puce -->
+            <li class="l1">CEJM</li>
+            <li class="l1">...</li>
+        </ul>
+        <p> Voici le référentiel du BTS SIO => <a href="https://www.reseaucerta.org/sites/default/files/sio/BTS_ServicesInformatiquesOrganisations2019.pdf">LIEN</a></p> <!-- Lien vers un document externe -->
+        <div>Voici une image :</div>
+        <img src="https://th.bing.com/th/id/OIP.2g1TfIkLM9UTqZiaeuhdpQHaEJ?pid=ImgDet&rs=1" alt="test"> <!-- Image provenant d'une URL externe -->
+        <p><strong>Et un peu de saut de ligne :</strong></p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>        
+        <a id="fin"></a> <!-- Ancre pour navigation interne vers la fin de la page -->
+        <a href="#debut">RETOUR HAUT DE PAGE</a> <!-- Lien pour se rendre en haut de la page -->
+    </body>
+    </body>
+</html>
