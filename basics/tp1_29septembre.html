@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Début du bloc de styles CSS pour la mise en forme de la page */
+        .titres {
+            font-weight: bold; /* Définit le style de police en gras */
+            text-align: center;/* Centre le texte horizontalement */
+        }
+        td, tr, table {
+            border: dotted 2px; /* Crée une bordure en pointillés de 2 pixels autour des cellules de tableau */
+            border-collapse: collapse;/* Fusionne les bordures de tableau pour un rendu plus adapté */
+        }
+        .toptittle2 {
+            text-indent:650px;/* Indente le texte de 650 pixels depuis la marge gauche */
+        }
+        .toptittle1 {
+            text-indent:200px;/* Indente le texte de 200 pixels depuis la marge gauche */
+        }
+    </style><!-- Fin du bloc de styles CSS  -->
+    <title>Document</title>
+</head>
+<body>
+    <h1>Les étudiants de BTS SIO</h1><!-- Titre de niveau 1 pour cette section de la page -->
+    <div class="toptittle1">LES SIO 1</div> <!-- Div avec une classe pour appliquer un style spécifique -->
+    <table> <!-- Début d'un tableau -->
+        <tr class="titres"><!-- Ligne de tableau avec une classe pour appliquer un style spécifique -->
+          <td>Nom</td> <!-- Cellule de tableau pour le nom -->
+          <td>Prénom</td> <!-- Cellule de tableau pour le prénom -->
+          <td>Classe</td><!-- Cellule de tableau pour la classe -->
+        </tr>
+        <tr>
+          <td>Bak</td>
+          <td>Benjamin</td>
+          <td>BTS Services Informatiques aux organisations</td>
+        </tr>
+        <tr>
+          <td>Gauthier</td>
+          <td>Bastien</td>
+          <td>BTS Services Informatiques aux organisations</td>
+        </tr>
+        <tr>
+          <td>Goumaud</td>
+          <td>Floran</td>
+          <td>BTS Services Informatiques aux organisations</td>
+        </tr>
+        <tr>
+          <td>Luiggi</td>
+          <td>Matthieu</td>
+          <td>BTS Services Informatiques aux organisations</td>
+        </tr>
+        <tr>
+          <td>Moussa</td>
+          <td>Ali</td>
+          <td>BTS Services Informatiques aux organisations</td>
+        </tr>
+        <tr>
+          <td>Pantaleon</td>
+          <td>Sacha</td>
+          <td>BTS Services Informatiques aux organisations</td>
+        </tr>
+        <tr>
+          <td>Poirier</td>
+          <td>Lucas</td>
+          <td>BTS Services Informatiques aux organisations</td>
+        </tr>
+      </table> <!-- Fin du tableau -->
+    <hr color="red"> <!-- Crée une ligne horizontale de couleur rouge -->
+    <h1>Les jeux du SOIR</h1> <!-- Titre de niveau 1 pour cette section de la page -->
+    <div class="toptittle2">DES JEUX DE GEEK</div>
+    <table>
+      <tr class="titres">
+        <td>CLassement</td>
+        <td>Titre</td>
+        <td>Image</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>League of legends</td>
+        <td><img src="https://www.techporn.ph/wp-content/uploads/League-of-Legends-GP-1.jpg" alt=""></td><!-- implémentation d'une image -->
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>World of Warcraft</td>
+        <td><img src="https://external-preview.redd.it/59Qf9RVvrEvmwamBDy-1FUl_MId8D2ZMxtRMxI8lAv8.jpg?width=640&crop=smart&auto=webp&s=ab4a1ad476a0712fccab3db1c9877b26b97f8de3      " alt=""></td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Diablo 4</td>
+          <td><img src="https://beebom.com/wp-content/uploads/2023/06/Diablo-4.jpg?w=750&quality=75" alt=""></td>
+        </tr>
+      </table>
+      <hr color="red">
+      <h1>Liste des professeurs et des blocs</h1>
+      <table>
+        <tr class="titres">
+          <td>Semestre</td>
+          <td>Bloc</td>
+          <td>Description</td>
+          <td>Michel Girard</td>
+          <td>Jean-Luc Turrel</td>
+          <td>Arthur Trouillon</td>
+          <td>Royer Matthieu</td>
+        </tr>
+        <tr>
+          <td rowspan="2">Semestre 1</td><!-- rawspan permet de fusionner des cellules à la verticale (autant que la valeur qu'on lui a attribué) -->
+          <td>bloc 1</td>
+          <td>Support et mise à disposition de services informatiques</td>
+          <td colspan="4">OUI</td><!-- colspan permet de fusionner des cellules à l'horizontale (autant que la valeur qu'on lui a attribué) -->
+        </tr>
+        <tr>
+          <td>Bloc 3</td>
+          <td>Cybersécurité des services informatiques</td>
+          <td>NON</td>
+          <td>NON</td>
+          <td colspan="2">OUI</td>
+        </tr>
+        <tr>
+          <td rowspan="2">Semestre 2</td>
+          <td rowspan="2">bloc 2</td>
+          <td>Support et mise à disposition de services informatiques</td>
+          <td>NON</td>
+          <td colspan="2">OUI</td>
+          <td>NON</td>
+        </tr>
+        <tr>
+          <td>Conception et développement d'applications</td>
+          <td>OUI</td>
+          <td>NON</td>
+          <td>NON</td>
+          <td>OUI</td>
+        </tr>
+    </table>
+</body>
+</html>
